@@ -44,27 +44,26 @@ keyword = "jacques chirac décès"
 		     'comment' : 'comment',
 		     'number reacts' : int,
 		     'level1_replies' = {
-			    		...
+			    		'replies':{}
 			    		}
 		    },
-
 	'comment_2':{'name' : 'name',
 		     'linkCommenter' : 'link'
 		     'date' : '26 sept. 2019',
 		     'comment' : 'comment',
 		     'number reacts' : int,
 		     'level1_replies' = {
-			    		...
+			    		'replies':{}
 			    		}
-		    },...
-
+		    },
+		    
 	'comment_n':{'name' : 'name',
 		     'linkCommenter' : 'link'
 		     'date' : '26 sept. 2019',
 		     'comment' : 'comment',
 		     'number reacts' : int,
 		     'level1_replies' = {
-			    		...
+			    		'replies':{}
 			    		}
 		    }
 	}
