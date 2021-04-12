@@ -11,7 +11,7 @@
 
 ## How it works ? 
 
-Methodology:
+#### Methodology:
 1) pages_to_scrape = ["France 24", "lemonde.fr", "franceinfo", ...] #change to your needs
 2) keyword = "jacques chirac décès" #change to your needs
 3) search in the page of france 24 (or other news page) for keyword
