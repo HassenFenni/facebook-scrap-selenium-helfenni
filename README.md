@@ -28,47 +28,10 @@ keyword = "jacques chirac décès"
 4) LIMIT_COMMENTS // int // range: 0-number of comments  
 5) keyword // string // ex: "jacques chirac décès"
 
-#### exemple "ideal" output for one post:
-{
-'post_author' : 'FRANCE24',
-'date_publication' : '26 septembre 2019, 12:31', 
-'title' : 'Le cinquième président de la Ve République française s'est éteint',
-'photo' : 'url_photo',
-'number reacts' : int,
-'link' : 'link',
-'comments' :
-       {
-	'comment_1':{'name' : 'name',
-		     'linkCommenter' : 'link'
-		     'date' : '26 sept. 2019',
-		     'comment' : 'comment',
-		     'number reacts' : int,
-		     'level1_replies' = {
-			    		'replies':{}
-			    		}
-		    },
-	'comment_2':{'name' : 'name',
-		     'linkCommenter' : 'link'
-		     'date' : '26 sept. 2019',
-		     'comment' : 'comment',
-		     'number reacts' : int,
-		     'level1_replies' = {
-			    		'replies':{}
-			    		}
-		    },
-		    
-	'comment_n':{'name' : 'name',
-		     'linkCommenter' : 'link'
-		     'date' : '26 sept. 2019',
-		     'comment' : 'comment',
-		     'number reacts' : int,
-		     'level1_replies' = {
-			    		'replies':{}
-			    		}
-		    }
-	}
-}
-
+#### output:
+- dictionary containing facebook posts data regarding a particular subject :
+{publication author, title, photo, publication date, comments = {'author':'author', 'comment': 'comment', 'date': 'date, 'replies': '...'}}
+- inserting into mongoDB
 
 #### limits: 
 1) Due to the time cost I limited the number of comments per post to 30 
