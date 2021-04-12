@@ -29,7 +29,7 @@ keyword = "jacques chirac décès"
 5) keyword // string // ex: "jacques chirac décès"
 
 #### output:
-- dictionary containing facebook posts data regarding a particular subject :
+- dictionary containing facebook posts data regarding a particular subject : \n
 {publication author, title, photo, publication date, comments = {'author':'author', 'comment': 'comment', 'date': 'date, 'replies': '...'}}
 - inserting into mongoDB
 
