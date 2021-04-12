@@ -12,9 +12,9 @@
 ## How it works ? 
 
 Methodology:
-1) pages_to_scrape = ["France 24", "lemonde.fr", "franceinfo", ...]
-2) search in the page of france 24 (or other news page) for 
-keyword = "jacques chirac décès" 
+1) pages_to_scrape = ["France 24", "lemonde.fr", "franceinfo", ...] #change to your needs
+2) keyword = "jacques chirac décès" #change to your needs
+3) search in the page of france 24 (or other news page) for keyword
 3) scroll + get all post url's 
 4) go through urls one by one and scrap the first post for each URL 
 (using "https://mbasic.facebook.com/...")
