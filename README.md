@@ -12,12 +12,12 @@
 ## How it works ? 
 
 Methodology:
-1) pages_to_scrape = ["France 24", ...]
+1) pages_to_scrape = ["France 24", "lemonde.fr", "franceinfo", ...]
 2) search in the page of france 24 (or other news page) for 
 keyword = "jacques chirac décès" 
 3) scroll + get all post url's 
 4) go through urls one by one and scrap the first post for each URL 
-(using "https://mbasic.facebook.com/..." can make it easier)
+(using "https://mbasic.facebook.com/...")
 5) format results as JSON
 6) insert JSON into MongoDB 
 
@@ -29,7 +29,7 @@ keyword = "jacques chirac décès"
 5) keyword // string // ex: "jacques chirac décès"
 
 #### output:
-- dictionary containing facebook posts data regarding a particular subject : \n
+- dictionary containing facebook posts data regarding a particular subject : <br/>
 {publication author, title, photo, publication date, comments = {'author':'author', 'comment': 'comment', 'date': 'date, 'replies': '...'}}
 - inserting into mongoDB
 
