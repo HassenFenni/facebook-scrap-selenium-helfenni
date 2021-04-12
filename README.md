@@ -23,10 +23,10 @@ keyword = "jacques chirac décès"
 
 #### inputs: 
 1) fb credentials (e-mail + pwd)
-2) pages_to_scrape // list of page names to scrap // ex: ['page_name1','page_name2',...]
-3) n_posts // int #number of posts to scrape from search results // range: 0-number of publications 
-4) LIMIT_COMMENTS // int // range: 0-number of comments  
-5) keyword // string // ex: "jacques chirac décès"
+2) "pages_to_scrape": list of page names to scrap - ex: ['page_name1','page_name2',...]
+3) "n_posts_limit": int for the #number of posts to scrape from search results - range: 0-number of publications for that particular search == (len(urls_to_scrape))
+4) "LIMIT_COMMENTS": int for the #number of comments to scrape - range: 0-number of comments  
+5) "keyword": string - ex: "jacques chirac décès"
 
 #### output:
 - dictionary containing facebook posts data regarding a particular subject : <br/>
