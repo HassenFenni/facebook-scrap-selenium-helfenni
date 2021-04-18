@@ -34,12 +34,4 @@
 - inserting into mongoDB
 
 #### limits: 
-- scraping only lvl0 comments
-
-#### Possible additions: 
-1) Détecter les mots clés dans la phrase (ex: "le décès du président Jacques Chirac")
-solutions : Graph-based approaches , Conditional Random Fields (CRF), SVM’s, TF-IDF, …
-2) Générer une liste de synonymes pour les mots clés qui ne sont pas des noms/prénoms
--solutions for extracting names : Named Entity Recognition (NER) 
--solutions for synonym extraction : word2vec (skip-gram), …
-3) Effectuer plusieurs recherches selon les mots clés + les synonymes
+- scraping only the comments (no replies)
