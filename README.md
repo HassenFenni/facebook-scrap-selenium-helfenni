@@ -34,7 +34,7 @@
 - inserting into mongoDB
 
 #### limits: 
-1) scraping only lvl0 comments
+- scraping only lvl0 comments
 
 #### Possible additions: 
 1) Détecter les mots clés dans la phrase (ex: "le décès du président Jacques Chirac")
