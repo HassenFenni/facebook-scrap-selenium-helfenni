@@ -34,9 +34,7 @@
 - inserting into mongoDB
 
 #### limits: 
-1) Due to the time cost I limited the number of comments per post to 30 
-& posts to scrape per page to 25
-2) scraping only lvl0 comments
+1) scraping only lvl0 comments
 
 #### Possible additions: 
 1) Détecter les mots clés dans la phrase (ex: "le décès du président Jacques Chirac")
