@@ -6,7 +6,7 @@
 - cd into the project and execute the following command: "pip install -r requirements.txt" 
 - add your facebook credentials in the text file
 - add your own mongoDB client in order to insert results into the DB (last code snippets in 'src')
-/!\ you must set your FB language preference to French 
+- /!\ you must set your FB language preference to French 
 
 
 
