@@ -2,7 +2,7 @@
 
 
 ## Installation
-- open terminal and type the following command: "git clone https://github.com/HassenFenni/facebook-scrap-selenium-helfenni/"
+- open terminal and type the following command: "git clone https://github.com/HassenFenni/facebook-scrap-selenium-helfenni.git"
 - cd into the project and execute the following command: "pip install -r requirements.txt" 
 - add your facebook credentials in the text file
 - add your own mongoDB client in order to insert results into the DB (last code snippets in 'src')
